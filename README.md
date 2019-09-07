@@ -22,7 +22,7 @@ You have been given some data for per-capita crime rates around the country. You
       
         ii.	What are the main features used for classification? Can you explain why they make sense (or not)?
       
-   c.	Now apply cross-validation (cross_val_score) to do 10-fold cross-validation to estimate the out-of-training accuracy of decision tree learning for this task.
+    c.	Now apply cross-validation (cross_val_score) to do 10-fold cross-validation to estimate the out-of-training accuracy of decision tree learning for this task.
    
        i.	What are the 10-fold cross-validation accuracy, precision, and recall?
       
@@ -36,7 +36,8 @@ You have been given some data for per-capita crime rates around the country. You
        i. What is the 10-fold cross-validation accuracy, precision, and recall for this method?
 	
        ii. What are the 10 most predictive features? This can be measured by the normalized absolute difference of means for the feature between the two classes:
-                  \frac{\left|\mu_T-\mu_F\right|}{\sigma_T+\sigma_F}
+                 
+<div style="text-align:center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" title="\frac{\left|\mu_T-\mu_F\right|}{\sigma_T+\sigma_F}" /></a></div>
 
             The larger this different, the more predictive the feature. Why do these make sense (or not)?
 	     iii. How do these results compare with your results from decision trees, above?
