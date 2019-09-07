@@ -37,7 +37,7 @@ You have been given some data for per-capita crime rates around the country. You
 	
        ii. What are the 10 most predictive features? This can be measured by the normalized absolute difference of means for the feature between the two classes:
                  
-<div style="text-align:center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" title="\frac{\left|\mu_T-\mu_F\right|}{\sigma_T+\sigma_F}" /></a></div>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\left|\mu_T-\mu_F\right|}{\sigma_T&plus;\sigma_F}" title="\frac{\left|\mu_T-\mu_F\right|}{\sigma_T+\sigma_F}" /></a></p>
 
             The larger this different, the more predictive the feature. Why do these make sense (or not)?
 	     iii. How do these results compare with your results from decision trees, above?
