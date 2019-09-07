@@ -50,4 +50,38 @@ You have been given some data for per-capita crime rates around the country. You
       
           iii.	How do these results compare with your results from decision trees, above?
 
-       
+3.  Regression
+    Now you will attempt to directly predict the crime rate from the given features.
+
+    a.	Use LinearRegression to learn a linear model directly predicting the crime rate per capita (ViolentCrimesPerPop).
+	
+		i.	Using 10-fold cross-validation, what is the estimated mean-squared-error (MSE) of the model?
+		
+		ii.	What is the MSE on the training set (train on all the data then test on it all)?
+		
+		iii.	What features are most predictive of a high crime rate? A low crime rate?
+
+    b.	Now use Ridge regression to reduce the amount of overfitting, using RidgeCV to pick the best alpha from among (10, 1, 0.1, 0.01, 	 and 0.001).
+
+		i.	What is the estimated MSE of the model under 10-fold CV?
+
+		ii.	What is the MSE on the training set (train on all the data then test on it all)?
+
+		iii.	What is the best alpha?
+
+		iv.	What does this say about the amount of overfitting in linear regression for this problem?
+    c.	Now use polynomial features to do quadratic (second-order) polynomial regression.
+		
+		i.	What is the estimated MSE of the model under 10-fold CV?
+
+		ii.	What is the MSE on the training set (train on all the data then test on it all)?
+
+		iii.	Does this mean the quadratic model is better than the linear model for this problem?
+    
+
+4.  Dirty Data
+
+    Repeat the decision tree learning question for the full (non-clean) data set and present the results.
+
+     a.	Are the CV results better or worse? What does this say about the effect of missing values?
+
